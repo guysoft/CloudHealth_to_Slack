@@ -32,7 +32,6 @@ if __name__ == "__main__":
     bill = "$" + str(np.around(c.data_frames[0][1][yesterday.strftime("%Y-%m-%d")][0] ,decimals=1)) + str(" ") + yesterday.strftime("%Y-%m-%d")
     
     # Set the webhook_url to the one provided by Slack when you create the webhook at https://my.slack.com/services/new/incoming-webhook/
-    # webhook_url = 'https://hooks.slack.com/services/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'
     webhook_url = config["slack_hook"]
     slack_data = {'text': bill}
 
