@@ -5,7 +5,7 @@ Usage:
 ```
 cp src/config.yaml.example src/config.yaml
 ```
-2. edit the right API key for cloudhealth and slack hook for src/config.yaml
+2. edit the right API key for cloudhealth and slack hook for ``src/config.yaml``
 
 Run: 
 
